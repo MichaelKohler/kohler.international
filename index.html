@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="kohler.international" ng-controller="MainCtrl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Michael Kohler - International</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- inject:css -->
+        <!-- endinject -->
+    </head>
+    <body>
+
+        <nav>
+          {{ test }}
+        </nav>
+        <div id="container">
+
+            <div ui-view class="main"></div>
+
+        </div>
+
+        <div id="footer">
+            <p>&copy; Michael Kohler</p>
+        </div>
+
+
+
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-ui-router/angular-ui-router.js"></script>
+
+        <!-- inject:js -->
+        <!-- endinject -->
+
+    </body>
+</html>
